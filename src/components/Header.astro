@@ -1,6 +1,7 @@
 ---
 import removeTrailingSlash from "@/utils/removeTrailingSlash";
 import presentation from "@/data/presentation";
+import ThemeIcon from './ThemeIcon.astro';
 
 const pathname = removeTrailingSlash(Astro.url.pathname);
 ---
@@ -32,5 +33,6 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
         >
       </li>
     </ul>
+    <ThemeIcon />
   </nav>
 </header>
