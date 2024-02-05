@@ -9,12 +9,12 @@ const projects: Project[] = [
   {
     title: "Custom T-Shirt Logo",
     techs: ["ReactJS", "Dall.E", "JavaScript"],
-    // link: "https://github.com/MaeWolff/dictionary-app",
+    link: "",
   },
   {
     title: "Tinder for Dogs - TinDog",
     techs: ["HTML", "CSS", "Bootstrap"],
-    // link: "https://www.linablidi.fr/",
+    link: "",
   },
 ];
 
